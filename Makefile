@@ -5,4 +5,4 @@ city?=not_set
 build:
 
 run:
-	python main.py "$(api_key)" "$(city)"
+	python3.6 main.py "$(api_key)" "$(city)"
